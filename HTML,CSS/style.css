@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    color: #333;    
+
+}
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-right-items{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item{
+    margin: 0 30px;
+}
+
+.nav-item > a{
+    text-decoration: none;
+    color: #fff;
+    transition: text-decoration 1s;
+}
+.nav-item > a:hover{
+    text-decoration: underline;
+}
+#home{
+    margin-top: -60px;
+    width: 100vh;
+    height: 100vh;
+    
+
+}
+.main_p {
+    position:absolute;
+    right: 0;
+    width: 80vh;
+    height: 80vh;
+    background: url("./images/IMG_1008.JPG") no-repeat right top;
+    background-size: 80vh 80vh;
+    transform: rotate(90deg);
+    z-index: -1;   
+}
+
+.main_p2 {
+    position:absolute;
+    left: 10vh;
+    bottom: 5vh;
+    width: 60vh;
+    height: 60vh;
+    background: url("./images/IMG_1029.JPG") no-repeat left bottom;
+    background-size: 80vh 80vh;
+    transform: rotate(90deg);
+    z-index: -1;   
+}
+
+#home .home_txt{
+    position: relative;
+    top: 19vh;
+    left: 10vh;
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+} 
+
+#gallery {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+.column img {
+    float: left;
+    width: 50%;
+    padding: 12px;
+    transform: rotate(90deg);
+    transition: opacity 1s;
+  }
+.column img:hover {
+    opacity:0.8;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contect {
+    width: 100%;
+    height: 200px;  
+    background: #F2F2F2;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+#contect:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#contect ul{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+#contect ul li {
+   list-style: none; 
+}
+
+form{
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+}
+form p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+form textarea {
+    margin-right:10px;
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+form input{
+    display: block;
+    width: 30%;
+    height: 30px;
+    text-indent: 0.8rem;
+}
+form button {
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #333;
+    border: none;
+    color: #fff;
+}
+
+
